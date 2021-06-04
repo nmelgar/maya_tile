@@ -1,71 +1,166 @@
 /*
-  Fonts
+  FONTS
   Variables
   General
-  Images
-  Container
   Header
   Main
+  Images
   footer
   Media Queries
   Notes
 */
-/*--------->|| FONTS ||--------<
----------------------------------*/
+/*--------->FONTS<-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@00&display=swap');
 
-/*--------->|| VARIABLES ||--------<
----------------------------------*/
+/*--------->Variables<-----------*/
 :root {
-  /*--blue: #*/
-
+  --dark: #202022;
+  --dark-blue: #36517d;
+  --grey: #c6ccd8;
+  --dark-grey: #495057;
+  --darkest-grey: #343A40;
+  --light-blue: #85a1c1;
+  --blue: #274b69;
+  --white: #FFFFFF;
+  --red: #ba181b;
 }
 
-/*--------->|| GENERAL STYLES ||--------<
----------------------------------*/
+/*--------->General Styles<-----------*/
+body {
+  background-color: var(--white);
+  /*background-image: url(images/background-texture.jpg);*/
+  color: var(--white);
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  /*Max width for the main container*/
+  max-width: 100%;
+  text-align: center;
+}
 
-/*--------->|| IMAGES ||--------<
----------------------------------*/
+h1, h2 {
+  font-size: 4em;
+  font-weight: 700;
+}
 
-/*--------->|| CONTAINER ||--------<
----------------------------------*/
+#lets-work {
+  font-size: 3em;
+  padding: 20px;
+}
 
-/*--------->|| HEADER ||--------<
----------------------------------*/
+h3, h4 {
+  margin-top: 0;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: lighter;
+  color: #003078;
+}
 
-/*--------->|| MAIN ||--------<
----------------------------------*/
+.main-image {
+  width: 20%;
+}
 
-/*--------->|| FOOTER ||--------<
----------------------------------*/
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-/*--------->|| MEDIA QUERIES ||--------<
----------------------------------*/
+/*--------->HEADER<-----------*/
+/*--------->Main<-----------*/
+#main-content {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.contact {
+  align-items: center;
+  border-bottom: 0.8em solid #003078;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.contact ul li a:hover {
+  color: red;
+}
+
+.social-btn {
+  color: #373435;
+  background: none;
+  border: none;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+#social-media-links {
+  align-items: center;
+  display: inherit;
+  flex-flow: row;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+}
+
+#social-media-links li {
+  list-style: none;
+  padding: 10px;
+}
+
+#social-media-links li a {
+  text-decoration: none;
+}
+
+/*--------->Footer<-----------*/
+/*--------->Media Queries<-----------*/
 /*This rule is just for the projects to adapt to screen better*/
 @media (max-width: 1086px) {
-
+  .main-image {
+    width: 30%;
+  }
 }
 
 @media (max-width: 768px) {
+  .main-image {
+    width: 40%;
+  }
 
+  #main-content {
+    /* padding: 10px; */
+  }
+
+  h1, h2 {
+    font-size: 3em;
+  }
+
+  h3, h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  #social-media-links {
+    flex-wrap: wrap;
+  }
+
+  .contact {}
 }
 
 @media (max-width: 640px) {
-
-}
-
-@media (max-width: 481px) {
-
-}
-
-@media (max-width: 385px) {
-
+  .main-image {
+    width: 40%;
+  }
 }
 
 /*--------->NOTES<-----------*/
 /*
 - Para centrar algo horizontalmente en navegadores modernos, usa display:
  flex; justify-content: center;
+
 - Sin embargo, en navegadores antiguos como IE8-9, flexbox no está disponible.
 Para poder centrar un elemento horizontalmente con respecto a su contenedor,
 usa margin: 0 auto;
+
 */
