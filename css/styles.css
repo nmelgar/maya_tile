@@ -196,7 +196,7 @@
 
 /*OFFER SECTION*/
 .offer {
-  background-image: url(images/fashion.png);
+  background-image: url(../images/fashion.png);
   backcground-size: cover;
   background-position: center;
   margin: 30px 0 120px 0;
@@ -275,16 +275,16 @@
 }
 
 .brand-logo-1{
-  background-image: url(images/brand1.jpg);
+  background-image: url(../images/brand1.jpg);
 }
 .brand-logo-2{
-  background-image: url(images/brand2.jpg);
+  background-image: url(../images/brand2.jpg);
 }
 .brand-logo-3{
-  background-image: url(images/brand3.jpg);
+  background-image: url(../images/brand3.jpg);
 }
 .brand-logo-4{
-  background-image: url(images/brand4.jpg);
+  background-image: url(../images/brand4.jpg);
 }
 
 .brand-logo img {
