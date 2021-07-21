@@ -12,56 +12,47 @@
 </head>
 
 <body>
-  <section class="header">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <!--LOGO GOES BELOW-->
-      <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="design.html">Design</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Us</a>
-          </li>
-        </ul>
 
-        <!-- <ul class="right-menu ml-auto">
-          <li><a target="_blank" href="fb://page/106513644976499/"><img src="images/logo.png"></a></li>
-          <li><a target="_blank" href="fb://page/106513644976499/"><i class="fa fa-facebook"></i></a></li>
-          <li><a target="_blank" href="https://www.instagram.com/designmayatile/"><i class="fa fa-instagram"></i></a></li>
-          <li><a target="_blank" href="https://wa.me/14804540657?text=Can%20I%20get%20more%20info%20please%20?"><i class="fa fa-whatsapp"></i></a></li>
-          <!-SEARCH BAR-->
-          <!-- <li>
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Search">
-              <div class="input-group-append">
-                <span class="input-group-text"><i class="fa fa-search"></i></span>
-              </div>
-            </div>
-          </li> -->
-          <!--SEARCH BAR ENDS-->
-      <!--  </ul>-->
-      </div>
-    </nav>
-    <div class="banner">
-      <div class="banner-img">
-        <img src="images/banner.jpg">
-      </div>
-      <div class="banner-title">
-        <h1>Installation</h1>
-        <h1>+</h1>
-        <h1>Design</h1>
-      </div>
+  <nav class="header">
+    <button class="hamburguer" id="hamburguer">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="list-of-items items-left" id="list-of-item">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="installation.html">Installation</a></li>
+        <li><a href="design.html">Design</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
     </div>
 
-  </section>
+
+    <div class="logo-image">
+      <a class="logo-brand" href="index.html"><img id="logo" src="images/logo.png"></a>
+    </div>
+
+    <div class="list-of-items items-right">
+      <ul>
+        <li><a target="_blank" href="fb://page/106513644976499/"><i class="fa fa-facebook"></i></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/designmayatile/"><i class="fa fa-instagram"></i></a></li>
+        <li><a target="_blank" href="https://wa.me/14804540657?text=Can%20I%20get%20more%20info%20please%20?"><i class="fa fa-whatsapp"></i></a></li>
+      </ul>
+    </div>
+
+  </nav>
+
+
+  <!--ibanner image-->
+  <div class="banner">
+    <div class="banner-img">
+      <img src="images/banner.jpg">
+    </div>
+    <div class="banner-title">
+      <h1>Installation</h1>
+      <h1 id="plus">+</h1>
+      <h1>Design</h1>
+    </div>
+  </div>
 
   <!--SECOND SECTION-->
   <section class="fashion-trends">
@@ -116,9 +107,9 @@
         <div class="subscribe">
           <h4>About Us</h4>
           <p>We take advantage of technology to recreate in a render
-          how your idea will look like. You can change it as many times
-        as you want before we start working on it. Once the idea has been
-      chosen we can start making your dreamed decoration to come true. </p>
+            how your idea will look like. You can change it as many times
+            as you want before we start working on it. Once the idea has been
+            chosen we can start making your dreamed decoration to come true. </p>
           <a href="contact.html">Contact Us</a>
         </div>
       </div>
@@ -192,8 +183,8 @@
         </div>
         <p class="text-center"><b>Demolation:</b> Something that distinguish us
           is that we keep clean spaces during this process.
-           We use plastics to cover furniture, carpets,
-           cabinets, etc.
+          We use plastics to cover furniture, carpets,
+          cabinets, etc.
         </p>
       </div>
     </div>
@@ -225,9 +216,9 @@
         </div>
         <div class="col-md-4">
           <div class="app-download">
-            <h5>Where we are?</h5>
+            <h5>Interesting Stuff</h5>
             <img src="images/love.png">
-            <img src="images/mayatile.png">
+            <a href="#"><img src="images/careers.png"></a>
           </div>
         </div>
 
@@ -250,6 +241,9 @@
     </div>
   </footer>
 
+  <script src="scripts/script.js">
+
+  </script>
 
 </body>
 
