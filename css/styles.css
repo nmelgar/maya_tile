@@ -71,7 +71,7 @@ nav .items-right li:last-child {
 /*BANNER / BIG IMAGE and TITLES*/
 .banner {
   margin: 0 auto;
-  max-width: 100%;
+  /* max-width: 100%; uncomment*/
 }
 
 .banner-img {
@@ -113,11 +113,11 @@ nav .items-right li:last-child {
 }
 
 /*SECOND SECTION*/
-.fashion-trends {
-  padding: 100px 0;
+.our-mission {
+  padding: 20px 0 50px 0;
 }
 
-.fashion-box {
+.mission-box {
   margin: 80px 0;
 }
 
@@ -204,10 +204,10 @@ nav .items-right li:last-child {
   height: 100%;
 }
 
-/*OFFER SECTION*/
-.offer {
+/*about-us SECTION*/
+.about-us {
   background-image: url(../images/fashion.png);
-  backcground-size: cover;
+  background-size: cover;
   background-position: center;
   margin: 30px 0 120px 0;
 }
@@ -217,7 +217,7 @@ nav .items-right li:last-child {
 }
 
 .subscribe {
-  max-width: 500px;
+  /* max-width: 5000px; */
   margin-top: 80px;
   padding: 60px;
   background: #ffffff8c;
@@ -240,36 +240,14 @@ nav .items-right li:last-child {
   background: #BBB;
 }
 
-.offer img {
+.about-us img {
   width: 300px;
   height: 400px;
   margin-bottom: -40px;
   margin-top: 150px;
 }
 
-/*FASHION BLOG*/
-.fashion-blog {
-  margin: 250px 0 150px 0;
-}
-
-.blog-img {
-  margin-top: 50px;
-  height: 300px;
-  width: 300px;
-  display: inline-block;
-}
-
-.blog-img img {
-  width: 100%;
-  height: 100%;
-}
-
-.fashion-blog h5 {
-  margin-top: 20px;
-  font-weight: bold;
-}
-
-/*FASHION BRANDS*/
+/*all kind of installations*/
 .fashion-brands {
   margin-bottom: 130PX;
 }
@@ -315,12 +293,12 @@ nav .items-right li:last-child {
   background: #f5f6fc;
 }
 
-.payment, .insta-img, .app-download {
+.roc-number, .insta-img, .app-download {
   margin: 50px auto;
 }
 
-.payment img {
-  width: 300px;
+.roc-number img {
+  width: 80%;
   cursor: pointer;
 }
 
@@ -374,7 +352,7 @@ nav .items-right li:last-child {
 
 @media only screen and (max-width: 1370px) {
   .header {
-    padding: 30px 100px;
+    padding: 20px 100px;
     display: grid;
     grid-template-areas:
       "logo image image"
@@ -413,17 +391,14 @@ nav .items-right li:last-child {
   }
 }
 
-@media only screen and (max-width: 1370px) {
-  .header {
-    padding: 30px 50px;
-    ;
-  }
-}
-
 @media only screen and (max-width: 900px) {
+  .header {
+    padding: 30px 40px;
+  }
+
   .banner-img {
     margin: 40px auto;
-    width: 80%;
+    width: 100%;
   }
 
   .logo-image #logo {
@@ -431,22 +406,22 @@ nav .items-right li:last-child {
   }
 
   .banner-title {
-    top: 180px;
-    left: 50%;
+    top: 120px;
+    left: 70%;
     transform: translateX(-50%);
   }
 
   .banner-title h1 {
-    font-size: 2.5em !important;
+    font-size: 3.5em !important;
     padding: 5px;
-    line-height: 30px;
+    line-height: 50px;
   }
 
   .title-style h1 {
     font-size: 30px;
   }
 
-  .offer img {
+  .about-us img {
     margin-top: 20px !important;
     margin-bottom: 0 !important;
   }
@@ -463,6 +438,24 @@ nav .items-right li:last-child {
   .navbar-brand img {}
 }
 
+@media only screen and (max-width: 768px) {
+  .about-us {}
+
+  .about-container {
+    margin: 0 auto;
+    max-width: none;
+  }
+
+  .subscribe {
+    text-align: center;
+  }
+
+  .subscribe a {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 640px) {
   .logo-image #logo {
     width: 90%;
@@ -475,7 +468,6 @@ nav .items-right li:last-child {
       "logo image image"
       "list list list"
       "icons icons icons"
-
     ;
   }
 
@@ -483,9 +475,64 @@ nav .items-right li:last-child {
     /* display: none; */
     grid-area: icons;
   }
+
   nav .items-right {
     padding-top: 10px;
     justify-self: center;
     align-self: center;
   }
+
+  .banner-img img {
+    width: 100%;
+  }
+
+  .banner-title h1 {
+    font-size: 3em !important;
+    padding: 5px;
+    line-height: 45px;
+  }
+
+  .banner-title {
+    position: absolute;
+    left: 60%;
+    top: 30%;
+  }
+
+  .banner-title #plus {
+    font-weight: bolder;
+    color: #fff;
+    background: none;
+    line-height: 0;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .banner-title h1 {
+    font-size: 2.5em !important;
+    padding: 5px;
+    line-height: 40px;
+  }
+
+  .banner-title {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+  }
+
+  .banner-title #plus {
+    padding: 10px;
+  }
+
+  .about-us .image-about {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .about-us img {
+    width: 100%;
+  }
+  .subscribe {
+    padding: 20px;
+  }
+
 }
