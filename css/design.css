@@ -1,6 +1,6 @@
 /*DESIGN GALLERY*/
 .design-gallery {
-  max-width: 1260px;
+  max-width: 1360px;
   margin: 0 auto 100px;
   padding: 20px 50px;
   text-align: center;
@@ -27,6 +27,7 @@
   height: 100%;
   object-fit: cover;
 }
+
 
 .item1 {
   grid-column-start: 1;
@@ -78,6 +79,17 @@
   padding: 10px 0;
 }
 
+#gallery-elevations{
+  display: none;
+}
+
+#gallery-light{
+  display: none;
+}
+
+#gallery-dark{
+  display: none;
+}
 /*This is for an individual pattern*/
 .pattern {
   padding: 10px 40px 0 40px;
@@ -118,6 +130,7 @@
   .design-grid {
     width: 100%;
     grid-gap: 10px;
+    grid-template-rows: repeat(8, 6vw);
   }
 
 

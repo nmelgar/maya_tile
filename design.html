@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
@@ -64,21 +65,21 @@
         <div class="col-md-4">
           <div class="trending-img">
             <img src="images/trend-1.jpg" alt="More info: https://www.rarchitecture.com.au/hinkler_house-_glen_waverley Photography: Tatjana Plitt - https://www.tatjanaplitt.com/">
-            <button onclick="window.location.href='design.html'" type="button" class="btn-buy">Elevations</button>
+            <button id="toggle-design" type="button" class="btn-buy">Elevations</button>
             <div class="overlay"></div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="trending-img">
             <img src="images/trend-2.jpg" alt="https://unsplash.com/photos/JxOg24YpKV0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">
-            <button onclick="window.location.href='design.html'" type="button" class="btn-buy">Light</button>
+            <button id="toggle-design-light" type="button" class="btn-buy">Light</button>
             <div class="overlay"></div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="trending-img">
             <img src="images/trend-3.jpg">
-            <button onclick="window.location.href='design.html'" type="button" class="btn-buy">Dark</button>
+            <button id="toggle-design-dark" type="button" class="btn-buy">Dark</button>
             <div class="overlay"></div>
           </div>
         </div>
@@ -87,7 +88,7 @@
   </section>
 
   <!--This will be for the gallery 1-->
-  <div class="design-gallery gallery-elevations">
+  <div class="design-gallery" id="gallery-elevations">
     <div class="title-style text-center">
       <h1>Elevations</h1>
     </div>
@@ -115,7 +116,7 @@
   </div>
 
   <!--This will be for the gallery 2-->
-  <div class="design-gallery gallery-light">
+  <div class="design-gallery" id="gallery-light">
     <div class="title-style text-center">
       <h1>Light</h1>
     </div>
@@ -143,7 +144,7 @@
   </div>
 
   <!--This will be for the gallery 3-->
-  <div class="design-gallery gallery-dark">
+  <div class="design-gallery" id="gallery-dark">
     <div class="title-style text-center">
       <h1>Dark</h1>
     </div>
@@ -266,9 +267,10 @@
     </div>
   </footer>
 
-  <script src="scripts/menu-script.js">
+  <script src="scripts/menu-script.js"></script>
+  <!--This is to hide and show the different styles-->
+  <script src="scripts/designs.js"></script>
 
-  </script>
 
 </body>
 
