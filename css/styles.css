@@ -18,8 +18,12 @@
   border: 0;
   color: black;
   cursor: pointer;
-  font-size: 2em;
+  font-size: 24px;
   display: none;
+}
+
+.hamburguer:hover {
+  color: #003078;
 }
 
 .hamburguer:focus {
@@ -39,7 +43,7 @@ nav .list-of-items li a {
 }
 
 nav .list-of-items li a:hover {
-  color: #717171;
+  color: #003078;
 }
 
 /*NAVIGATION LEFT SIDE NAVIGATION TABS*/
@@ -340,7 +344,7 @@ nav .items-right li:last-child {
 }
 
 .footer-icons a:hover {
-  color: #717171 !important;
+  color: #003078 !important;
 }
 
 /*MEDIA QUERIAS*/
@@ -372,6 +376,8 @@ nav .items-right li:last-child {
   }
 
   nav .items-left li {
+    font-size: 22px;
+    color: #000;
     /* display: none; */
     display: flex;
     flex-direction: column;

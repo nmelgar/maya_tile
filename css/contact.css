@@ -22,9 +22,6 @@
   /* text-align: center; */
 }
 
-.contact-right ul {
-  padding-left: 100px;
-}
 
 .contact-right ul li a {
   font-size: 22px;
@@ -50,4 +47,10 @@ input[type=submit]:hover {}
     grid-template-columns: 1fr;
     padding: 20px;
   }
+  .contact-right{
+    margin: 0 auto !important;
+    
+  text-align: center;
+  }
+
 }
