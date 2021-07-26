@@ -46,6 +46,10 @@ nav .list-of-items li a:hover {
   color: #003078;
 }
 
+nav .list-of-items li .current {
+  color: #aaa;
+}
+
 /*NAVIGATION LEFT SIDE NAVIGATION TABS*/
 nav .items-left {
   justify-self: start;
