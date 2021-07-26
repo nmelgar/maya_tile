@@ -1,0 +1,65 @@
+/*EVERYTHING ABOUT THE INSTALLATIONS STUFF THE 4 CIRCLES
+FOR BIG SCREENS AND JUST 2 FOR SMALL SCREENS*/
+.installation-items {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  /* margin: 0 auto; */
+  padding: 10px 0;
+}
+
+#gallery-elevations{
+  display: none;
+}
+
+#gallery-light{
+  display: none;
+}
+
+#gallery-dark{
+  display: none;
+}
+
+.installation-item {
+  padding: 10px 40px 0 40px;
+  text-align: center;
+}
+
+.installation-item p {
+  display: inline-block;
+  margin: 10px;
+}
+
+.installation-item img {
+  width: 100%;
+  height: auto;
+}
+/*HOLDS THE 2 DIVS THAT MAKE THE INSTALLATION OPTIONS*/
+.installation-container{
+  text-align: center;
+}
+
+/*MAKE THE CIRCLES*/
+.installation-item {
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 50px auto 0px;
+  box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
+}
+
+.installation-item-1 {
+  background-image: url(../images/brand1.jpg);
+}
+
+.installation-item-2 {
+  background-image: url(../images/brand2.jpg);
+}
+
+.installation-item-3 {
+  background-image: url(../images/brand3.jpg);
+}
+
+.installation-item-4 {
+  background-image: url(../images/brand4.jpg);
+}
