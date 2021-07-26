@@ -95,16 +95,16 @@ nav .items-right li:last-child {
 
 .banner-title {
   position: absolute;
-  left: 50%;
+  left: 78%;
   top: 20%;
 }
 
 .banner-title h1 {
-  font-size: 4em !important;
+  font-size: 4.5em !important;
   background: rgba(0, 0, 0, 0.75);
   color: #fff;
   line-height: 40px;
-  padding: 20px 10px 20px 10px;
+  padding: 20px 10px 30px 10px;
   text-align: center;
 }
 
@@ -114,6 +114,7 @@ nav .items-right li:last-child {
   background: none;
   line-height: 0;
   padding: 20px;
+  margin-bottom: 0.3em;
 }
 
 /*SECOND SECTION*/
@@ -348,6 +349,26 @@ nav .items-right li:last-child {
 }
 
 /*MEDIA QUERIAS*/
+@media only screen and (max-width: 1776px) {
+  .banner-title {
+    position: absolute;
+    left: 75%;
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width: 1504px) {
+  .banner-title {
+    position: absolute;
+    left: 70%;
+    top: 20%;
+  }
+
+  .banner-title h1 {}
+
+  .banner-title #plus {}
+}
+
 @media only screen and (max-width: 1461px) {
   .header {
     padding: 30px 50px;
@@ -397,6 +418,48 @@ nav .items-right li:last-child {
   }
 }
 
+@media only screen and (max-width: 1357px) {
+  .banner-title {
+    position: absolute;
+    left: 65%;
+    top: 20%;
+  }
+
+  .banner-title h1 {
+    font-size: 3em;
+  }
+
+  .banner-title #plus {}
+}
+
+@media only screen and (max-width: 1165px) {
+  .banner-title {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+  }
+
+  .banner-title h1 {
+    font-size: 3em;
+  }
+
+  .banner-title #plus {}
+}
+
+@media only screen and (max-width: 1016px) {
+  .banner-title {
+    position: absolute;
+    left: 55%;
+    top: 20%;
+  }
+
+  .banner-title h1 {
+    font-size: 3em;
+  }
+
+  .banner-title #plus {}
+}
+
 @media only screen and (max-width: 900px) {
   .header {
     padding: 30px 40px;
@@ -413,7 +476,7 @@ nav .items-right li:last-child {
 
   .banner-title {
     top: 120px;
-    left: 70%;
+    left: 78%;
     transform: translateX(-50%);
   }
 
@@ -504,8 +567,8 @@ nav .items-right li:last-child {
 
   .banner-title {
     position: absolute;
-    left: 60%;
-    top: 30%;
+    left: 50%;
+    top: 20%;
   }
 
   .banner-title #plus {
@@ -526,7 +589,7 @@ nav .items-right li:last-child {
 
   .banner-title {
     position: absolute;
-    left: 60%;
+    left: 50%;
     top: 20%;
   }
 

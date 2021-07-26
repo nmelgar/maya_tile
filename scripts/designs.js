@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('#toggle-design').on('click', function() {
-    $('#gallery-elevations').show('');
+    $('#gallery-elevations').show();
     $('#gallery-light').hide();
     $('#gallery-dark').hide();
   })
