@@ -42,9 +42,15 @@ FOR BIG SCREENS AND JUST 2 FOR SMALL SCREENS*/
   margin: 10px;
 }
 
+
 /*HOLDS THE 2 DIVS THAT MAKE THE INSTALLATION OPTIONS*/
 .installation-container {
   text-align: center;
+}
+
+.installation-container p{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /*MAKE THE CIRCLES*/
