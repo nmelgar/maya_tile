@@ -78,7 +78,7 @@ FOR BIG SCREENS AND JUST 2 FOR SMALL SCREENS*/
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   /* margin: 0 auto; */
-  padding: 10px 0;
+  padding: 10px;
 }
 
 #gallery-elevations {
@@ -95,7 +95,7 @@ FOR BIG SCREENS AND JUST 2 FOR SMALL SCREENS*/
 
 /*This is for an individual pattern*/
 .installation-gallery-item {
-  padding: 10px 20px 0 40px;
+  padding: 10px 20px 10px 20px;
   text-align: center;
 }
 
