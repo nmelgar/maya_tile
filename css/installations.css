@@ -16,15 +16,19 @@ FOR BIG SCREENS AND JUST 2 FOR SMALL SCREENS*/
   padding: 10px 0;
 }
 
-#gallery-elevations {
+#installation-walls {
   display: none;
 }
 
-#gallery-light {
+#installation-showers {
   display: none;
 }
 
-#gallery-dark {
+#installation-kitchens{
+  display: none;
+}
+
+#installation-floors{
   display: none;
 }
 
