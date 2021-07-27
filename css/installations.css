@@ -3,6 +3,10 @@
   /* padding: 15px; */
 }
 
+.mission-box {
+  margin: 60px 0 0 0;
+}
+
 /*EVERYTHING ABOUT THE INSTALLATIONS STUFF THE 4 CIRCLES
 FOR BIG SCREENS AND JUST 2 FOR SMALL SCREENS*/
 .installation-items {
@@ -65,6 +69,38 @@ FOR BIG SCREENS AND JUST 2 FOR SMALL SCREENS*/
   background-image: url(../images/brand4.jpg);
 }
 
+/*INSTALLATION GALLERY*/
+.installations {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  /* margin: 0 auto; */
+  padding: 10px 0;
+}
+
+#gallery-elevations {
+  display: none;
+}
+
+#gallery-light {
+  display: none;
+}
+
+#gallery-dark {
+  display: none;
+}
+
+/*This is for an individual pattern*/
+.installation-gallery-item {
+  padding: 10px 20px 0 40px;
+  text-align: center;
+}
+
+.installation-gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+/*MEDIA QUERIES*/
 @media only screen and (max-width: 900px) {
   .installation-items {
     display: grid;
@@ -72,6 +108,29 @@ FOR BIG SCREENS AND JUST 2 FOR SMALL SCREENS*/
     /* margin: 0 auto; */
     padding: 10px 0;
   }
+
+  .installations {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
-@media only screen and (max-width: 489px) {}
+@media only screen and (max-width: 678px) {
+  .installations {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media only screen and (max-width: 446px) {
+  .installation-item {
+    width: 150px;
+    height: 150px;
+    margin: 30px auto 0px;
+  }
+
+  .installations {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}

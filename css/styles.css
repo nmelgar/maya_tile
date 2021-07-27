@@ -186,6 +186,7 @@ nav .items-right li:last-child {
   background: #fff;
   left: 50%;
   bottom: 0;
+  /*NEXT LINE MAKES IS COME FROM BOTTOM TO MIDDLE*/
   transform: translate(-50%, 0);
   transition: .6s;
   opacity: 0;
@@ -272,6 +273,8 @@ nav .items-right li:last-child {
 
 .brand-logo-1 {
   background-image: url(../images/brand1.jpg);
+  object-fit: scale-down;
+  object-position: center;
 }
 
 .brand-logo-2 {
