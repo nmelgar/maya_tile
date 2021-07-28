@@ -65,6 +65,8 @@ FOR BIG SCREENS AND JUST 2 FOR SMALL SCREENS*/
 
 .installation-item-1 {
   background-image: url(../images/brand1.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .installation-item-2 {

@@ -15,10 +15,9 @@
   padding: 20px;
 }
 
-.contact-left {
-  }
+.contact-left {}
 
-.contact-right {}
+
 
 .contact-right ul li a {
   color: #003078;
@@ -30,16 +29,15 @@
   text-decoration: none;
 }
 
-
 /*CONTACT FORM*/
-.contact-left label{
+.contact-left label {
   color: #003078;
   font-size: 18px;
   font-weight: 500;
- margin-bottom: 3px;
+  margin-bottom: 3px;
 }
 
-form{
+form {
   padding: 20px;
 }
 
@@ -67,7 +65,9 @@ input[type=submit] {
 
 input[type=submit]:hover {
   /* color: lightblue; */
-  opacity: 0.7;
+  /* opacity: 0.7; */
+  background: white;
+  color: #003078;
 }
 
 /*MEDIA QUERIAS*/
@@ -84,7 +84,12 @@ input[type=submit]:hover {
 
   .contact-right {
     margin-top: 50px;
+    display: grid;
+    justify-self: flex-start;
+    margin-left: 20px;
   }
+
+
 
   .contact-left {}
 }
