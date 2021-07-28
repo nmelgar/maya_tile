@@ -1,7 +1,8 @@
-.mission-box p a{
+.mission-box p a {
   color: #003078;
 }
-.mission-box p a:hover{
+
+.mission-box p a:hover {
   text-decoration: none;
   color: #717171;
 }
@@ -15,6 +16,16 @@
 
 .trending-img:hover .btn-buy {
   transform: translate(-50%, 60%);
+}
+
+/*ELEVATIONS GALLERY*/
+.gallery-elevations-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.gallery-elevations-item {
+  padding: 10px;
 }
 
 /*DESIGN GALLERY*/
@@ -170,6 +181,12 @@
     width: 100%;
     grid-gap: 10px;
     grid-template-rows: repeat(8, 6vw);
+  }
+
+  /*ELEVATIONS GALLERY GRID*/
+  .gallery-elevations-grid {
+    display: grid;
+    grid-template-columns: 100%;
   }
 }
 
