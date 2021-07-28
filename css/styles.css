@@ -43,7 +43,7 @@ nav .list-of-items li a {
 }
 
 nav .list-of-items li a:hover {
-  color: #003078;
+  color: #0075B5;
 }
 
 nav .list-of-items li .current {
@@ -352,7 +352,7 @@ nav .items-right li:last-child {
 }
 
 .footer-icons a:hover {
-  color: #003078 !important;
+  color: #0075B5 !important;
 }
 
 /*MEDIA QUERIAS*/
