@@ -1,3 +1,34 @@
+<?php
+
+
+if (isset($_POST['email']) && $_POST['email'] != '') {
+  //IF email is valid, then send the email
+  if (filter_var($_POST['youremail'], FILTER_VALIDATE_EMAIL)) {
+
+    // submit the form
+    $userName = $_POST['name'];
+    $userEmail = $_POST['youremail'];
+    $userPhone = $_POST['phonenumber'];
+    $mailSubject = $_POST['subject'];
+    $projectDescription = $_POST['description'];
+
+    $to = "melgar.nefi@gmail.com";
+    $body = "";
+
+    $body .= "From: " . $userName . "\r\n";
+    $body .= "Email: " . $userEmail . "\r\n";
+    $body .= "Phone: " . $userPhone . "\r\n";
+    $body .= "Message: " . $projectDescription . "\r\n";
+
+    mail($to, $mailSubject, $body);
+
+  }
+}
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,26 +84,30 @@
     <div class="contact-section">
       <!--CONTACT LEFT-->
       <div class="contact-left">
-        <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <form action="contact.php" method="POST">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name.." required>
 
-          <label for="country">Contact Email</label>
-          <input type="email" id="lname" name="lastname" placeholder="Your email" required>
+          <label for="youremail">Contact Email</label>
+          <input type="email" id="youremail" name="youremail" placeholder="Your email" required>
 
 
-          <label for="country">Your phone numer</label>
-          <input type="number" id="lname" name="lastname" placeholder="Phone number">
+          <label for="phonenumber">Your phone numer</label>
+          <input type="number" id="phonenumber" name="phonenumber" placeholder="Phone number">
 
-          <label for="subject">Project description</label>
-          <textarea id="subject" name="subject" placeholder="Tell us about your project" style="height:200px" required></textarea>
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Hello there!" required>
+
+          <label for="description">Project description</label>
+          <textarea id="description" name="description" placeholder="Tell us about your project" style="height:200px" required></textarea>
 
           <input type="submit" value="Submit">
+
+         
         </form>
       </div>
+
 
       <!--CONTACT RIGHT-->
       <div class="contact-right">
