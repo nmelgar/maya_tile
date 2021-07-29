@@ -1,7 +1,7 @@
 <?php
 
 
-if (isset($_POST['email']) && $_POST['email'] != '') {
+if (isset($_POST['youremail']) && $_POST['youremail'] != '') {
   //IF email is valid, then send the email
   if (filter_var($_POST['youremail'], FILTER_VALIDATE_EMAIL)) {
 
