@@ -216,7 +216,7 @@ nav .items-right li:last-child {
 
 /*about-us SECTION*/
 .about-us {
-  background-image: url(../images/fashion.png);
+  background-image: url(../images/about-background.png);
   background-size: cover;
   background-position: center;
   margin: 30px 0 120px 0;
@@ -224,6 +224,7 @@ nav .items-right li:last-child {
 
 .row {
   margin: initial !important;
+
 }
 
 .subscribe {
