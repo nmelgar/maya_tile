@@ -60,7 +60,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
 
     <div class="logo-image">
-      <a class="logo-brand" href="index.html"><img id="logo" src="images/logo.png"></a>
+      <a class="logo-brand" href="index.html"><img id="logo" src="images/logo.png" alt="mayatile logo"></a>
     </div>
 
     <div class="list-of-items items-right">
@@ -104,7 +104,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
           <input type="submit" value="Submit">
 
-         
+
         </form>
       </div>
 
@@ -136,27 +136,27 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
         <div class="col-md-4">
           <div class="roc-number">
             <h5>License Number</h5>
-            <img src="images/roc-number.png">
+            <img src="images/roc-number.png" alt="image that shows the ROC numbers">
           </div>
         </div>
         <div class="col-md-4">
           <div class="insta-img">
             <h5>Get Inspiration</h5>
-            <img src="images/insta1.jpg">
-            <img src="images/insta2.jpg">
-            <img src="images/insta3.jpg">
-            <img src="images/insta4.jpg">
-            <img src="images/insta5.jpg">
-            <img src="images/insta6.jpg">
-            <img src="images/insta7.jpg">
-            <img src="images/insta8.jpg">
+            <img src="images/insta1.jpg" alt="image of tiles to inspire others">
+            <img src="images/insta2.jpg" alt="image of tiles to inspire others">
+            <img src="images/insta3.jpg" alt="image of tiles to inspire others">
+            <img src="images/insta4.jpg" alt="image of tiles to inspire others">
+            <img src="images/insta5.jpg" alt="image of tiles to inspire others">
+            <img src="images/insta6.jpg" alt="image of tiles to inspire others">
+            <img src="images/insta7.jpg" alt="image of tiles to inspire others">
+            <img src="images/insta8.jpg" alt="image of tiles to inspire others">
           </div>
         </div>
         <div class="col-md-4">
           <div class="app-download">
             <h5>Interesting Stuff</h5>
-            <img src="images/love.png">
-            <a href="#"><img src="images/careers.png"></a>
+            <img src="images/love.png" alt="image that shows we love arizona">
+            <a href="#"><img src="images/careers.png" alt="image that will lead to the careers"></a>
           </div>
         </div>
 
