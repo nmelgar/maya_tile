@@ -69,7 +69,7 @@ if (isset($_POST['youremail']) && $_POST['youremail'] != '') {
 
     <div class="list-of-items items-right">
       <ul>
-        <li><a target="_blank" href="fb://page/106513644976499/"><i class="fa fa-facebook"></i></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/Maya-Tile-Design-LLC-106513644976499"><i class="fa fa-facebook"></i></a></li>
         <li><a target="_blank" href="https://www.instagram.com/designmayatile/"><i class="fa fa-instagram"></i></a></li>
         <li><a target="_blank" href="https://www.linkedin.com/company/maya-tile-design-llc"><i class="fa fa-linkedin"></i></a></li>
       </ul>
@@ -117,7 +117,7 @@ if (isset($_POST['youremail']) && $_POST['youremail'] != '') {
       <div class="contact-right">
 
         <ul class="fa-ul">
-          <li><a target="_blank" href="fb://page/106513644976499/"><i class="fa-li fa fa-facebook"></i>Facebook</a></li>
+          <li><a target="_blank" href="https://www.facebook.com/Maya-Tile-Design-LLC-106513644976499"><i class="fa-li fa fa-facebook"></i>Facebook</a></li>
           <li><a target="_blank" href="https://www.instagram.com/designmayatile/"><i class="fa-li fa fa-instagram"></i>Instagram</a></li>
           <li><a target="_blank" href="https://www.linkedin.com/company/maya-tile-design-llc"><i class="fa-li fa fa-linkedin"></i>Linkedin</a></li>
           <li><a target="_blank" href="mailto:contact@mayatile.com"><i class="fa-li fa fa-at"></i>Email</a></li>
@@ -172,7 +172,7 @@ if (isset($_POST['youremail']) && $_POST['youremail'] != '') {
         </div>
         <div class="col-md-4">
           <div class="footer-icons">
-            <a target="_blank" href="fb://page/106513644976499/"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.facebook.com/Maya-Tile-Design-LLC-106513644976499"><i class="fa fa-facebook"></i></a>
             <a target="_blank" href="https://www.linkedin.com/company/maya-tile-design-llc"><i class="fa fa-linkedin"></i></a>
             <a target="_blank" href="https://www.instagram.com/designmayatile/"><i class="fa fa-instagram"></i></a>
             <a target="_blank" href="mailto:contact@mayatile.com"><i class="fa fa-at"></i></a>

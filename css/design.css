@@ -8,14 +8,44 @@
 }
 
 /*IMAGES DARK, LIGHT ELEVATIONS ETC*/
-.trending-img img {
+.design-img img {
   width: 100%;
-  height: 250px;
+  height: 300px;
   object-fit: cover;
 }
 
-.trending-img:hover .btn-buy {
+.btn-buy-design {
+  width: 150px;
+  padding: 10px 0;
+  outline: none !important;
+  border: 0;
+  border-radius: 2px;
+  position: absolute;
+  background: #fff;
+  left: 50%;
+  bottom: 0;
+  /*NEXT LINE MAKES IS COME FROM BOTTOM TO MIDDLE*/
+  /* transform: translate(-50%, 0); */
+  /* transition: .6s; */
+  opacity: 0;
+  z-index: 1;
+}
+
+
+.design-img .btn-buy-design {
   transform: translate(-50%, 60%);
+  bottom: 50%;
+  opacity: 1;
+}
+
+.overlay-design {
+  height: 100%;
+  width: 100%;
+  background: #333;
+  position: absolute;
+  top: 0;
+  opacity: 0.6;
+  transition: .5s;
 }
 
 /*ELEVATIONS GALLERY*/
@@ -29,8 +59,6 @@
 }
 
 /*LIGHT GALLERY*/
-
-
 /*DESIGN GALLERY*/
 .design-gallery {
   max-width: 1360px;

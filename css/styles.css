@@ -167,12 +167,12 @@ nav .items-right li:last-child {
 }
 
 /*TRENDING IMAGES*/
-.trending-img {
+.design-img {
   position: relative;
   margin-bottom: 15px;
 }
 
-.trending-img img {
+.design-img img {
   width: 100%;
 }
 
@@ -193,7 +193,7 @@ nav .items-right li:last-child {
   z-index: 1;
 }
 
-.trending-img:hover .btn-buy {
+.design-img:hover .btn-buy {
   transform: translate(-50%, -50%);
   bottom: 50%;
   opacity: 1;
@@ -209,7 +209,7 @@ nav .items-right li:last-child {
   transition: .5s;
 }
 
-.trending-img:hover .overlay {
+.design-img:hover .overlay {
   opacity: 0.5;
   height: 100%;
 }
