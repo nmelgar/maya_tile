@@ -103,7 +103,7 @@ nav .items-right li:last-child {
   top: 20%;
 }
 
-.banner-title h1 {
+.banner-title h2 {
   font-size: 4.5em !important;
   background: rgba(0, 0, 0, 0.75);
   color: #fff;
@@ -130,7 +130,7 @@ nav .items-right li:last-child {
   margin: 40px 0;
 }
 
-.title-style h1 {
+.title-style h2 {
   padding: 40px 0;
 }
 
@@ -374,11 +374,6 @@ nav .items-right li:last-child {
     top: 20%;
   }
 
-  .banner-title h1 {}
-
-  .banner-title #plus {}
-}
-
 @media only screen and (max-width: 1461px) {
   .header {
     padding: 30px 50px;
@@ -435,7 +430,7 @@ nav .items-right li:last-child {
     top: 20%;
   }
 
-  .banner-title h1 {
+  .banner-title h2 {
     font-size: 3em;
   }
 
@@ -449,12 +444,9 @@ nav .items-right li:last-child {
     top: 20%;
   }
 
-  .banner-title h1 {
+  .banner-title h2 {
     font-size: 3em;
   }
-
-  .banner-title #plus {}
-}
 
 @media only screen and (max-width: 1016px) {
   .banner-title {
@@ -463,7 +455,7 @@ nav .items-right li:last-child {
     top: 20%;
   }
 
-  .banner-title h1 {
+  .banner-title h2 {
     font-size: 3em;
   }
 
@@ -500,13 +492,13 @@ nav .items-right li:last-child {
     transform: translateX(-50%);
   }
 
-  .banner-title h1 {
+  .banner-title h2 {
     font-size: 3.5em !important;
     padding: 5px;
     line-height: 50px;
   }
 
-  .title-style h1 {
+  .title-style h2 {
     font-size: 30px;
   }
 
@@ -585,7 +577,7 @@ nav .items-right li:last-child {
     width: 100%;
   }
 
-  .banner-title h1 {
+  .banner-title h2 {
     font-size: 3em !important;
     padding: 5px;
     line-height: 45px;
@@ -616,7 +608,7 @@ nav .items-right li:last-child {
 }
 
 @media only screen and (max-width: 376px) {
-  .banner-title h1 {
+  .banner-title h2 {
     font-size: 2.5em !important;
     padding: 5px;
     line-height: 40px;

@@ -33,13 +33,14 @@ if (isset($_POST['youremail']) && $_POST['youremail'] != '') {
 <html lang="en">
 
 <head>
-  <title>Maya Tile & Design</title>
+  <title>Maya Tile & Design | Contact Us</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="images/favicon.png">
-  <meta name="description" content="Website of mayatile company">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="Nefi Melgar">
-  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="Transform your space with profesional, honest, and responsible tile installation.">
+  <meta name="keywords" content="design, maya tile, tile installation, tile, decoration, kitchen">
+  <meta name="author" content="Maya Tile & Design">
+  <meta name="robots" content="noodp,noydir" /><link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -90,7 +91,7 @@ if (isset($_POST['youremail']) && $_POST['youremail'] != '') {
   <!--FASION BRANDS-->
   <section class="contact-info">
     <div class="title-style text-center">
-      <h1>Contact Us</h1>
+      <h2>Contact Us</h2>
     </div>
 
 
