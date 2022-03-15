@@ -46,37 +46,7 @@ if (isset($_POST['youremail']) && $_POST['youremail'] != '') {
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204288776-1">
-  </script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-204288776-1');
-  </script>
-  <!-- BEGIN: BBB AB Seal -->
-  <script type="text/javascript">
-    var bbb = bbb || [];
-    bbb.push(["bbbid", "pacific-southwest"]);
-    bbb.push(["bid", "1000088410"]);
-    bbb.push(["chk", "91A6254C7E"]);
-    bbb.push(["pos", "bottom-left"]);
-    (function() {
-      var scheme = (("https:" == document.location.protocol) ? "https://" : "http://");
-      var bbb = document.createElement("script");
-      bbb.type = "text/javascript";
-      bbb.async = true;
-      bbb.src = scheme + "seal-central-northern-western-arizona.bbb.org/badge/badge.min.js";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(bbb, s);
-    })();
-  </script>
-  <!-- END: BBB AB Seal -->
 </head>
 
 <body>
@@ -136,7 +106,8 @@ if (isset($_POST['youremail']) && $_POST['youremail'] != '') {
           <input type="text" id="subject" name="subject" placeholder="Hello there!" required>
 
           <label for="description">Project description</label>
-          <textarea id="description" name="description" placeholder="Tell us about your project" style="height:200px" required></textarea>
+          <textarea id="description" name="description" placeholder="Tell us about your project" style="height:200px"
+            required></textarea>
 
           <input type="submit" value="Submit">
 
